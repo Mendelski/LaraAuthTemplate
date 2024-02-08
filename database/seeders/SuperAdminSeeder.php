@@ -33,7 +33,7 @@ class SuperAdminSeeder extends Seeder
         // Creating Product Manager User
         $productManager = User::create([
             'name' => 'product Manager User',
-            'email' => 'pmuser@emial.com',
+            'email' => 'pmuser@email.com',
             'password' => Hash::make('laravel123')
         ]);
         $productManager->assignRole('Product Manager');
