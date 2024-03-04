@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Simple Laravel 10 User Roles and Permissions - AllPHPTricks.com</title>
+    <title>@yield('title', config('app.name'))</title>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.bunny.net">
